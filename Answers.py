@@ -422,17 +422,18 @@ def pop_values_in_dict_if_exists(myObejct,values_delete = [1,6]):
 
 
 #for question 23
-def func(myObejct,keys_add = ["name", "age"]):
+def func(myObejct,keys_add):
     dict = {}
     for i in keys_add:
         dict = myObejct[i]
         print(dict)
-    myObejct =  {
+myObejct =  {
         'name': 1,
         'age': 6,
         'bith date': 22,
         'equal': 12
-    }
+}
+
 
 
 
